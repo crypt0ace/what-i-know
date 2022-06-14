@@ -13,7 +13,7 @@
 - https://s3cur3th1ssh1t.github.io/
 - https://synzack.github.io/
 - https://blog.harmj0y.net/blog/
-- 
+- https://www.x86matthew.com/
 
 ```
 The list does not end here. A lot of really cool youtube channels and blogs exist. I just couldnt remember them..
